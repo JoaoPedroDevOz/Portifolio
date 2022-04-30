@@ -57,18 +57,16 @@ header {
 
 header nav {
     margin: auto;
-    width: auto;
 }
 
 header ul {
     display: flex;
     margin: auto;
-    
 }
 
 header li {
-    margin-right: 4vw;
     text-align: center;
+    padding: 10px;
 }
 
 header a {
@@ -85,9 +83,19 @@ header a {
     font-family: 'Libre Baskerville', serif;
 }
 
+#container {
+    margin: auto !important;
+
+}
+
+
 @media (max-width: 768px) {
     header a {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    header ul {
+        margin-right: 40px;
     }
 }
 
@@ -170,6 +178,7 @@ header a:hover {
 .title {
     background-color: #1A2838;
     width: 100%;
+    text-align: center;
   
 }
 
@@ -431,7 +440,7 @@ header a:hover {
 
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:720px) {
     .box-skill {
         width: 150px;
         padding-left: 40px;                              
@@ -521,16 +530,18 @@ header a:hover {
 
 /*Box de imagem com texto*/
 
+#sobre {
+    text-align: center;
+}
+
 .container-projects {
     display: inline-flex;
     margin-top: 10vh;
-    align-items: center;
     margin-bottom: 10vh;
 }
 
 .box-image {
     margin-left: 7vw;
-    text-align: center;
     width: 100%;
     height: 100%;
 }
@@ -657,7 +668,7 @@ header a:hover {
         display: inline-block;
         width: 100%;
         height: 100%;
-    
+        margin-right: 25px;
     }
     
     .box-image img {
